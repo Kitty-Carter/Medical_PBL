@@ -19,8 +19,8 @@
 ### 安装
 
 ```bash
-git clone <your-repo-url>
-cd Medical_PBL_OpenSource_Release
+git clone https://github.com/Kitty-Carter/Medical_PBL.git
+cd Medical_PBL
 npm install
 cp .env.example .env
 # 编辑 .env 填写必要配置
