@@ -1,0 +1,32 @@
+{
+  "name": "medical-pbl",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "quality": "node scripts/quality-gate.js",
+    "smoke": "node scripts/smoke-test.js",
+    "prod:check": "npm run quality && npm run smoke",
+    "test:astrbot": "node tests/test-astrbot-pbl2-multiround.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.29",
+    "@langchain/langgraph": "^1.2.0",
+    "@langchain/openai": "^1.2.11",
+    "archiver": "^7.0.1",
+    "axios": "^1.7.7",
+    "cookie-parser": "^1.4.7",
+    "docx": "^8.5.0",
+    "dotenv": "^17.3.1",
+    "express": "^4.19.2",
+    "mammoth": "^1.11.0",
+    "multer": "^2.1.1",
+    "openai": "^6.25.0",
+    "playwright": "^1.58.2",
+    "simple-statistics": "^7.8.8",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.3",
+    "uuid": "^10.0.0"
+  }
+}

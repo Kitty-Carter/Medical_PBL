@@ -1,0 +1,24 @@
+﻿{
+  "provider": "deepseek_web",
+  "defaults": {
+    "enabled": true,
+    "baseUrl": "https://chat.deepseek.com",
+    "headless": true,
+    "globalConcurrency": 3,
+    "roomDebounceMs": 3500,
+    "jobTtlMs": 180000,
+    "queueMaxSize": 120,
+    "cooldownDayMs": 4000,
+    "cooldownNightMs": 9000,
+    "cooldownDayStartHour": 8,
+    "cooldownNightStartHour": 23,
+    "allowHighPriorityBypassCooldown": true,
+    "pollIntervalMs": 350,
+    "completionStableMs": 2200,
+    "requestTimeoutMs": 90000,
+    "failureCircuitThreshold": 4,
+    "circuitOpenMs": 120000,
+    "chunkMinIntervalMs": 300,
+    "chunkMaxIntervalMs": 900
+  }
+}
